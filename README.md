@@ -134,3 +134,6 @@ PaySim Data ───────┘
 
 &#x20;               Streamlit Dashboard
 
+
+streamlit run app\app.py
+
