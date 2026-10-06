@@ -9,6 +9,7 @@ data/processed/*.csv
 
 models/*.pkl
 models/*.joblib
+models/deep_learning/
 
 outputs/figures/*
 outputs/reports/*
