@@ -1,0 +1,50 @@
+{
+  "dataset": {
+    "source_path": "C:\\Users\\yathi\\Desktop\\Explainable-Financial-AI\\data\\raw\\creditcard.csv",
+    "rows_before_deduplication": 284807,
+    "duplicates_removed": 1081,
+    "rows_after_deduplication": 283726,
+    "features": 30,
+    "chronological_train_rows": 226980,
+    "chronological_test_rows": 56746
+  },
+  "lstm": {
+    "precision": 0.7368421052631579,
+    "recall": 0.7567567567567568,
+    "f1": 0.7466666666666667,
+    "confusion_matrix": [
+      [
+        56652,
+        20
+      ],
+      [
+        18,
+        56
+      ]
+    ],
+    "roc_auc": 0.9736220374807332,
+    "pr_auc": 0.7801959228369699,
+    "sequence_length": 10,
+    "test_samples": 56746,
+    "epochs_trained": 23
+  },
+  "autoencoder": {
+    "precision": 0.023181454836131096,
+    "recall": 0.7837837837837838,
+    "f1": 0.04503105590062112,
+    "confusion_matrix": [
+      [
+        54228,
+        2444
+      ],
+      [
+        16,
+        58
+      ]
+    ],
+    "anomaly_threshold": 0.28071189820766423,
+    "threshold_percentile": 95,
+    "test_samples": 56746,
+    "epochs_trained": 47
+  }
+}
